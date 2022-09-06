@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+}
+
+.border-spacing {
+    padding: 0 142px 0 142px;
+}
+
+.nav-links {
+    color: gray;
+    text-decoration: none;
+    &:hover {
+        color: black;
+        border-bottom: solid 1px black;
+    }
+}
