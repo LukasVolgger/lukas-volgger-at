@@ -1,7 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 
+$primary-col: #126BFB;
+$secondary-col: #EEF4FF;
+$action-col: #7BB9FA;
+$grey-col: #5B5963;
+$black-col: #282828;
+$xs-space: 16px;
+$l-space: 32px;
+$xl-space: 46px;
+$xxl-space: 142px;
 body {
     margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
 }
 
 .border-spacing {
@@ -9,10 +32,10 @@ body {
 }
 
 .nav-links {
-    color: gray;
+    color: $grey-col;
     text-decoration: none;
     &:hover {
-        color: black;
-        border-bottom: solid 1px black;
+        color: $black-col;
+        border-bottom: solid 1px $black-col;
     }
 }
