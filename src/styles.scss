@@ -9,12 +9,18 @@ $xs-space: 16px;
 $l-space: 32px;
 $xl-space: 46px;
 $xxl-space: 142px;
+@font-face {
+    font-family: OpenSans;
+    src: url(./assets/fonts/OpenSans/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
 body {
     margin: 0;
+    font-family: OpenSans;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 54px;
     margin: 0;
 }
 
@@ -28,7 +34,7 @@ p {
 }
 
 .border-spacing {
-    padding: 0 142px 0 142px;
+    padding: 0 96px 0 96px;
 }
 
 .nav-links {

@@ -2,6 +2,18 @@
     position: relative;
     height: 600px;
     background-image: url(../../assets/img/samples/beach_grass.jpg);
+    h1 {
+        color: white;
+    }
+    p {
+        color: white;
+        text-align: center;
+    }
+}
+
+.home-title-container {
+    width: 60%;
+    padding-top: 96px;
 }
 
 .wave-shape {
