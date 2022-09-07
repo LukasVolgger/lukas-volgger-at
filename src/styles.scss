@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
+// ######################################################################### Typography variables
 $primary-col: #126BFB;
 $secondary-col: #EEF4FF;
 $action-col: #7BB9FA;
@@ -9,18 +10,27 @@ $xs-space: 16px;
 $l-space: 32px;
 $xl-space: 46px;
 $xxl-space: 142px;
+// ######################################################################### Own variables
+$link-col: #BABABA;
+// ######################################################################### Fonts
 @font-face {
     font-family: OpenSans;
     src: url(./assets/fonts/OpenSans/OpenSans-VariableFont_wdth,wght.ttf);
 }
 
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+// ######################################################################### General
 html {
     scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
-    font-family: OpenSans;
+    font-family: Roboto-Regular;
 }
 
 h1 {
@@ -42,10 +52,14 @@ p {
 }
 
 .nav-links {
-    color: $grey-col;
+    color: $link-col;
     text-decoration: none;
+    padding-bottom: 4px;
+    border-bottom: solid 2px transparent;
     &:hover {
         color: $black-col;
-        border-bottom: solid 1px $black-col;
+        font-weight: 500;
+        border-bottom: solid 2px $black-col;
+        transition: all 125ms ease-in-out;
     }
 }
