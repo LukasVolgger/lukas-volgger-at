@@ -6,6 +6,11 @@ header {
     padding-bottom: 32px;
 }
 
+.header-logo {
+    object-fit: contain;
+    width: 48px;
+}
+
 nav {
     display: flex;
     gap: 46px;

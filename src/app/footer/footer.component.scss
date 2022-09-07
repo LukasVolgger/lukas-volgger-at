@@ -1,9 +1,16 @@
 footer {
     display: flex;
     justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 64px;
 }
 
 .footer-social-media {
     display: flex;
-    gap: 16px;
+    gap: 96px;
+}
+
+.footer-social-media-img {
+    object-fit: contain;
+    width: 64px;
 }
