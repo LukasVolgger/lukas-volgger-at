@@ -14,6 +14,10 @@ $xxl-space: 142px;
     src: url(./assets/fonts/OpenSans/OpenSans-VariableFont_wdth,wght.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: OpenSans;
