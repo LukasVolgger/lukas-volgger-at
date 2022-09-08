@@ -3,12 +3,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 32px; //TODO Check margins 
     }
     
     .my-work-title {
         position: relative;
         text-align: center;
-        margin-bottom: 64px;
+        margin-bottom: 64px; //TODO Check margins 
         width: max-content;
         font-weight: 600;
         padding-bottom: 8px;
@@ -31,10 +32,10 @@
         padding: 96px;
         gap: 128px;
         background-color: #f2f2f2ff;
-        margin-bottom: 32px;
+        margin-bottom: 32px; //TODO Check margins 
         h2 {
             text-align: center;
-            margin-bottom: 32px;
+            margin-bottom: 32px; //TODO Check margins 
             font-weight: 600;
         }
         p {
@@ -68,6 +69,7 @@
     }
     
     .project-btn {
+        // TODO Unify button sizes
         width: 112px;
         height: 56px;
     }

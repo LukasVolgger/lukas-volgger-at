@@ -1,0 +1,54 @@
+.contact-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px; //TODO Check margins 
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 16px; //TODO Check margins 
+    }
+    p {
+        color: rgb(96, 96, 96);
+    }
+    a {
+        // TODO Unify links
+        color: #639DFC;
+        text-decoration: none;
+    }
+}
+
+.contact-form {
+    width: 600px;
+}
+
+.contact-submit-container {
+    display: flex;
+    justify-content: end;
+    margin-top: 16px;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.form-control {
+    background-color: #EEF4FF;
+    border: none;
+    resize: none;
+}
+
+.btn {
+    // TODO Unify button sizes
+    width: 112px;
+    height: 56px;
+}
