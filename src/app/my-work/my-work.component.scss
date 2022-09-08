@@ -1,40 +1,73 @@
-.my-work-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.my-work-title {
-    text-align: center;
-    margin-bottom: 64px;
-}
-
-.my-work-project {
-    display: flex;
-    flex-direction: row;
-    padding: 96px;
-    gap: 128px;
-    background-color: #f2f2f2ff;
-    margin-bottom: 32px;
-    h2 {
+    .my-work-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .my-work-title {
+        position: relative;
         text-align: center;
+        margin-bottom: 64px;
+        width: max-content;
+        font-weight: 600;
+        padding-bottom: 8px;
     }
-    p {
-        text-align: center;
-        color: rgb(96, 96, 96);
+    
+    .my-work-title:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: black;
+        height: 4px;
+        border-radius: 10px;
     }
-    img {
-        object-fit: contain;
-        width: 384px;
+    
+    .my-work-project {
+        display: flex;
+        flex-direction: row;
+        padding: 96px;
+        gap: 128px;
+        background-color: #f2f2f2ff;
+        margin-bottom: 32px;
+        h2 {
+            text-align: center;
+            margin-bottom: 32px;
+            font-weight: 600;
+        }
+        p {
+            text-align: center;
+            color: rgb(96, 96, 96);
+            width: 80%;
+        }
+        img {
+            object-fit: contain;
+            width: 448px;
+        }
     }
-}
-
-.row-reverse {
-    flex-direction: row-reverse;
-}
-
-.project-btns-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-}
+    
+    .row-reverse {
+        flex-direction: row-reverse;
+    }
+    
+    .project-description-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .project-btns-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        margin-top: 32px;
+    }
+    
+    .project-btn {
+        width: 112px;
+        height: 56px;
+    }
