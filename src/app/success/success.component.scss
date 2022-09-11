@@ -1,0 +1,19 @@
+.success-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    gap: 16px;
+}
+
+.alert {
+    width: 600px;
+    text-align: center;
+}
+
+.btn {
+    // TODO Unify button sizes
+    width: 112px;
+    height: 56px;
+}
