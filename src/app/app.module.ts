@@ -10,6 +10,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { MyWorkComponent } from './my-work/my-work.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { SuccessComponent } from './success/success.component';
+import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SuccessComponent } from './success/success.component';
     AboutMeComponent,
     MyWorkComponent,
     ContactMeComponent,
-    SuccessComponent
+    SuccessComponent,
+    LegalNoticeComponent
   ],
   imports: [
     BrowserModule,
