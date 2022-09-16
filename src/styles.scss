@@ -11,7 +11,11 @@ $l-space: 32px;
 $xl-space: 46px;
 $xxl-space: 142px;
 // ######################################################################### Own variables
-$link-col: #BABABA;
+:root {
+    --link-col: #BABABA;
+    --black-col: #282828;
+}
+
 // ######################################################################### Fonts
 @font-face {
     font-family: OpenSans;
@@ -49,17 +53,4 @@ p {
 
 .border-spacing {
     padding: 0 96px 0 96px;
-}
-
-.nav-links {
-    color: $link-col;
-    text-decoration: none;
-    padding-bottom: 4px;
-    border-bottom: solid 2px transparent;
-    &:hover {
-        color: $black-col;
-        font-weight: 500;
-        border-bottom: solid 2px $black-col;
-        transition: all 125ms ease-in-out;
-    }
 }
