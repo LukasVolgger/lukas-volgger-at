@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "lukas-volgger.at": {
+        "lukas-volgger-at": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -17,7 +17,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/lukas-volgger.at",
+                        "outputPath": "dist/lukas-volgger-at",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -32,7 +32,6 @@
                             "src/styles.scss"
                         ],
                         "scripts": [
-                            "node_modules/@popperjs/core/dist/cjs/popper.js",
                             "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
                         ]
                     },
@@ -70,10 +69,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "browserTarget": "lukas-volgger.at:build:production"
+                            "browserTarget": "lukas-volgger-at:build:production"
                         },
                         "development": {
-                            "browserTarget": "lukas-volgger.at:build:development"
+                            "browserTarget": "lukas-volgger-at:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -81,7 +80,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "lukas-volgger.at:build"
+                        "browserTarget": "lukas-volgger-at:build"
                     }
                 },
                 "test": {
