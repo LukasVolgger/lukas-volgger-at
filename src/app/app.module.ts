@@ -11,6 +11,7 @@ import { MyWorkComponent } from './my-work/my-work.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { SuccessComponent } from './success/success.component';
 import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
+import { MyPrinciplesComponent } from './my-principles/my-principles.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
     MyWorkComponent,
     ContactMeComponent,
     SuccessComponent,
-    LegalNoticeComponent
+    LegalNoticeComponent,
+    MyPrinciplesComponent
   ],
   imports: [
     BrowserModule,

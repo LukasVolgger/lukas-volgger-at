@@ -1,0 +1,27 @@
+h2 {
+    // TODO Check margins 
+    margin-bottom: 32px;
+}
+
+.principle {
+    // TODO Check margins 
+    margin: 32px 0 32px 0;
+    padding: 16px;
+    // background-color: aliceblue;
+    background-color: #f2f2f2ff;
+    div {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    h3 {
+        margin: 0;
+    }
+    img {
+        object-fit: contain;
+        width: 48px;
+    }
+    p {
+        margin: 0;
+    }
+}
