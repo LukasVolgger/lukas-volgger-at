@@ -1,14 +1,11 @@
 h2 {
-    // TODO Check margins 
     margin-bottom: 32px;
 }
 
 .principle {
-    // TODO Check margins 
     margin: 32px 0 32px 0;
     padding: 16px;
-    // background-color: aliceblue;
-    background-color: #f2f2f2ff;
+    background-color: var(--section-col);
     div {
         display: flex;
         align-items: center;

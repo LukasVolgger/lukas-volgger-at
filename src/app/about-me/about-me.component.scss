@@ -7,7 +7,7 @@
 
 .about-me-details {
     display: flex;
-    margin-bottom: 32px; // TODO Check margins
+    margin-bottom: 32px;
 }
 
 .about-me-img {
@@ -21,13 +21,13 @@
     justify-content: center;
     align-items: center;
     padding: 64px;
-    background-color: #f2f2f2ff;
+    background-color: var(--section-col);
     h2 {
         position: relative;
         width: max-content;
         font-weight: 600;
         padding-bottom: 16px;
-        margin-bottom: 32px; // TODO Check margins
+        margin-bottom: 32px;
     }
     h2:after {
         content: '';
@@ -35,7 +35,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background: black;
+        background: var(--black-col);
         height: 4px;
         border-radius: 10px;
     }
@@ -47,9 +47,9 @@
 .hyphen {
     width: 128px;
     height: 2px;
-    background-color: black;
+    background-color: var(--black-col);
     border-radius: 10px;
-    margin-bottom: 32px; // TODO Check margins
+    margin-bottom: 32px;
 }
 
 .skills-container {
@@ -81,7 +81,7 @@
     align-items: center;
     gap: 16px;
     width: 100%;
-    background-color: #f2f2f2ff;
+    background-color: var(--section-col);
     padding: 32px 256px 32px 256px;
     p {
         margin: 0;
@@ -115,12 +115,12 @@
     width: 32px;
     height: 8px;
     border-radius: 10px;
-    background-color: #126BFB;
+    background-color: var(--primary-col);
 }
 
 .blue-dot {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #126BFB;
+    background-color: var(--primary-col);
 }

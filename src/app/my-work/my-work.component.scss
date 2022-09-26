@@ -3,13 +3,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 32px; //TODO Check margins 
+        margin-bottom: 32px;
     }
     
     .my-work-title {
         position: relative;
         text-align: center;
-        margin-bottom: 64px; //TODO Check margins 
+        margin-bottom: 64px;
         width: max-content;
         font-weight: 600;
         padding-bottom: 8px;
@@ -21,7 +21,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background: black;
+        background: var(--black-col);
         height: 4px;
         border-radius: 10px;
     }
@@ -31,16 +31,16 @@
         flex-direction: row;
         padding: 96px;
         gap: 128px;
-        background-color: #f2f2f2ff;
-        margin-bottom: 32px; //TODO Check margins 
+        background-color: var(--section-col);
+        margin-bottom: 32px;
         h2 {
             text-align: center;
-            margin-bottom: 32px; //TODO Check margins 
+            margin-bottom: 32px;
             font-weight: 600;
         }
         p {
             text-align: center;
-            color: rgb(96, 96, 96);
+            color: var(--description-col);
             width: 80%;
         }
         img {
@@ -66,10 +66,4 @@
         justify-content: center;
         gap: 32px;
         margin-top: 32px;
-    }
-    
-    .project-btn {
-        // TODO Unify button sizes
-        width: 112px;
-        height: 56px;
     }

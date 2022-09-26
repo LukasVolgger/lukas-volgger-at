@@ -11,17 +11,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 32px; //TODO Check margins 
+    margin-bottom: 32px;
     h2 {
         text-align: center;
         font-weight: 600;
-        margin-bottom: 16px; //TODO Check margins 
+        margin-bottom: 16px;
     }
     p {
         color: rgb(96, 96, 96);
     }
     a {
-        // TODO Unify links
         color: #639DFC;
         text-decoration: none;
     }
@@ -45,10 +44,4 @@
     background-color: #EEF4FF;
     border: none;
     resize: none;
-}
-
-.btn {
-    // TODO Unify button sizes
-    width: 112px;
-    height: 56px;
 }

@@ -12,8 +12,12 @@ $xl-space: 46px;
 $xxl-space: 142px;
 // ######################################################################### Own variables
 :root {
+    // Colors
     --link-col: #BABABA;
     --black-col: #282828;
+    --section-col: #f2f2f2ff;
+    --primary-col: #126BFB;
+    --description-col: rgb(96, 96, 96);
 }
 
 // ######################################################################### Fonts
@@ -53,4 +57,9 @@ p {
 
 .border-spacing {
     padding: 0 96px 0 96px;
+}
+
+.btn {
+    width: 112px;
+    height: 56px;
 }
