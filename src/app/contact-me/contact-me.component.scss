@@ -23,6 +23,9 @@
     a {
         color: #639DFC;
         text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 

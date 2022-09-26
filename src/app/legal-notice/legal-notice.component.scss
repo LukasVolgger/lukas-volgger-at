@@ -1,3 +1,15 @@
 h1 {
     margin-bottom: 32px;
 }
+
+h3 {
+    text-decoration: underline;
+}
+
+a {
+    color: #639DFC;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
