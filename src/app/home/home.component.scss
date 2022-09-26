@@ -1,10 +1,13 @@
 .home-bg-container {
+    display: flex;
     position: relative;
     height: 600px;
     background-image: url(../../assets/img/samples/mountains_snow_forest_1920.jpg);
     background-position-y: 70%;
+    background-size: cover;
     h1 {
         color: white;
+        margin-bottom: 32px;
     }
     p {
         color: white;
@@ -18,7 +21,6 @@
     justify-content: center;
     align-items: center;
     width: 600px;
-    padding-top: 96px;
 }
 
 .wave-shape {
