@@ -11,6 +11,12 @@ header {
     width: 48px;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
 .nav-link {
     color: var(--link-col);
     border-bottom: solid 2px transparent;
@@ -20,8 +26,4 @@ header {
         border-bottom: solid 2px var(--black-col);
         transition: all 125ms ease-in-out;
     }
-}
-
-.navbar-toggler {
-    background-color: var(--link-col);
 }
