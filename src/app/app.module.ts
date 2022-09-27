@@ -12,6 +12,7 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
 import { SuccessComponent } from './success/success.component';
 import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 import { MyPrinciplesComponent } from './my-principles/my-principles.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MyPrinciplesComponent } from './my-principles/my-principles.component';
     ContactMeComponent,
     SuccessComponent,
     LegalNoticeComponent,
-    MyPrinciplesComponent
+    MyPrinciplesComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
