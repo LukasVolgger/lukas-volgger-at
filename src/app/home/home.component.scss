@@ -2,9 +2,20 @@
     display: flex;
     position: relative;
     height: 600px;
-    background-image: url(./../../assets/img/samples/mountains_snow_forest_1920.jpg);
-    background-position-y: 70%;
-    background-size: cover;
+    // background-image: url(./../../assets/img/samples/mountains_snow_forest_1920.jpg);
+    // background-position-y: 70%;
+    // background-size: cover;
+    img {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
     h1 {
         color: white;
         margin-bottom: 32px;
