@@ -1,27 +1,48 @@
-<header class="border-spacing">
-    <a routerLink="" title="Home"><img class="header-logo" src="../../assets/img/logo_lv_673.png" alt="Logo"></a>
-    <nav>
-        <a routerLink="" class="nav-link">HOME</a>
-        <div class="dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              ABOUT ME
-            </a>
-
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" routerLink="/about-me">About Me</a></li>
-                <li><a class="dropdown-item" routerLink="/my-principles">My Principles</a></li>
-            </ul>
-        </div>
-        <div class="dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              MY WORK
-            </a>
-
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" routerLink="">1st</a></li>
-                <li><a class="dropdown-item" routerLink="">2nd</a></li>
-                <li><a class="dropdown-item" routerLink="">3rd</a></li>
-            </ul>
+<header>
+    <nav class="navbar fixed-top border-spacing">
+        <div class="container-fluid">
+            <a routerLink="" title="Home"><img class="nav-logo" src="../../assets/img/logo_lv_673.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" routerLink="">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Me</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" routerLink="/about-me">About Me</a></li>
+                                <!-- <li>
+                                    <hr class="dropdown-divider">
+                                </li> -->
+                                <li><a class="dropdown-item" routerLink="/my-principles">My Principles</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Work</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">1st</a></li>
+                                <li><a class="dropdown-item" href="#">2nd</a></li>
+                                <li><a class="dropdown-item" href="#">3rd</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" routerLink="/legal-notice">Legal Notice</a>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                </div>
+            </div>
         </div>
     </nav>
 </header>
