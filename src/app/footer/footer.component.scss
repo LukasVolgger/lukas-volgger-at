@@ -1,6 +1,7 @@
 footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 64px;
 }
@@ -8,20 +9,8 @@ footer {
 .footer-social-media {
     display: flex;
     gap: 96px;
-}
-
-.footer-social-media-img {
-    object-fit: contain;
-    width: 64px;
-}
-
-.nav-link {
-    color: var(--link-col);
-    border-bottom: solid 2px transparent;
-    &:hover {
-        color: var(--black-col);
-        font-weight: 500;
-        border-bottom: solid 2px var(--black-col);
-        transition: all 125ms ease-in-out;
+    img {
+        object-fit: contain;
+        width: 48px;
     }
 }

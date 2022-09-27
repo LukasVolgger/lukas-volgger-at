@@ -4,21 +4,23 @@
     justify-content: flex-start;
     align-items: center;
     height: calc(100vh - 160px);
+    h2 {
+        margin-bottom: 32px;
+    }
+    button {
+        width: 196px;
+    }
 }
 
 .error-404 {
-    font-size: 256px;
-    font-weight: bold;
     -webkit-background-clip: text;
     background-clip: text;
     background-image: url(./../../assets/img/samples/forest_1920.jpg);
     background-size: cover;
     background-position: -141%;
     color: transparent;
-}
-
-h2 {
-    margin-bottom: 32px;
+    font-size: 256px;
+    font-weight: bold;
 }
 
 .hyphen {
@@ -27,8 +29,4 @@ h2 {
     background-color: var(--black-col);
     border-radius: 10px;
     margin-bottom: 32px;
-}
-
-.btn {
-    width: 196px;
 }

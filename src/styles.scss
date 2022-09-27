@@ -22,11 +22,6 @@ $xxl-space: 142px;
 
 // ######################################################################### Fonts
 @font-face {
-    font-family: OpenSans;
-    src: url(./assets/fonts/OpenSans/OpenSans-VariableFont_wdth,wght.ttf);
-}
-
-@font-face {
     font-family: Roboto-Regular;
     src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
 }
@@ -62,4 +57,15 @@ p {
 .btn {
     width: 112px;
     height: 56px;
+}
+
+.nav-link {
+    color: var(--link-col);
+    border-bottom: solid 2px transparent;
+    &:hover {
+        color: var(--black-col);
+        font-weight: 500;
+        border-bottom: solid 2px var(--black-col);
+        transition: all 125ms ease-in-out;
+    }
 }

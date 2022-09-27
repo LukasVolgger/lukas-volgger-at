@@ -1,4 +1,4 @@
-.home-bg-container {
+.content {
     display: flex;
     position: relative;
     height: 600px;
@@ -24,9 +24,15 @@
         color: white;
         text-align: center;
     }
+    svg {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
 }
 
-.home-title-container {
+.home-banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,11 +40,4 @@
     width: 600px;
     height: max-content;
     margin-top: 64px;
-}
-
-.wave-shape {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
 }

@@ -1,4 +1,4 @@
-.about-me-container {
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,13 +65,12 @@
     height: 24px;
     border-radius: 0;
     background-color: #79ACFF;
-}
-
-.skill {
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    margin-left: 8px;
+    span {
+        position: absolute;
+        color: white;
+        font-size: 16px;
+        margin-left: 8px;
+    }
 }
 
 .about-me-description {
