@@ -5,9 +5,9 @@ nav {
     padding-top: 24px;
     padding-bottom: 24px;
     background-color: white;
-    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.35);
-    -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.35);
-    -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
 .container-fluid {
@@ -42,6 +42,12 @@ nav {
 .offcanvas,
 .dropdown-menu {
     border: none;
+}
+
+.offcanvas {
+    box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
 .btn-close:focus {

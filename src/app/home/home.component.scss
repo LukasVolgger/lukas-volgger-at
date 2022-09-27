@@ -19,8 +19,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 600px;
+    height: max-content;
+    margin-top: 64px;
 }
 
 .wave-shape {
