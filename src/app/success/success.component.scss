@@ -62,3 +62,14 @@
         box-shadow: inset 0px 0px 0px 48px #7ac142;
     }
 }
+
+// ######################################################################### Media queries
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 360px) {
+    .content {
+        height: calc(100vh - 83px);
+    }
+    .alert {
+        width: unset;
+    }
+}

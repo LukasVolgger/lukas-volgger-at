@@ -41,3 +41,16 @@
     height: max-content;
     margin-top: 64px;
 }
+
+// ######################################################################### Media queries
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 360px) {
+    .content {
+        height: max-content;
+        padding-bottom: 64px;
+    }
+    h1 {
+        font-size: 44px;
+        text-align: center;
+    }
+}

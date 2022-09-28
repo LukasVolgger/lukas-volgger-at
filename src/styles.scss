@@ -57,3 +57,17 @@ p {
         transition: all 125ms ease-in-out;
     }
 }
+
+// ######################################################################### Media queries
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 360px) {
+    .border-spacing {
+        padding: 128px 16px 0 16px;
+    }
+    p {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+}

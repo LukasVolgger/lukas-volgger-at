@@ -48,3 +48,17 @@
     border: none;
     resize: none;
 }
+
+// ######################################################################### Media queries
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 360px) {
+    .content {
+        padding: 0 16px 0 16px;
+    }
+    .contact-form {
+        width: unset;
+    }
+    .form-label {
+        font-size: 14px;
+    }
+}

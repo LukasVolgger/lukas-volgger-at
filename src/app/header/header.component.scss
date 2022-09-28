@@ -42,3 +42,12 @@ nav {
 .btn-close:focus {
     box-shadow: none;
 }
+
+// ######################################################################### Media queries
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 360px) {
+    .container-fluid {
+        justify-content: center;
+        gap: 32px;
+    }
+}

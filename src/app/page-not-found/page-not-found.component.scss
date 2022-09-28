@@ -37,3 +37,14 @@
     border-radius: 10px;
     margin-bottom: 32px;
 }
+
+// ######################################################################### Media queries
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 360px) {
+    .content {
+        height: calc(100vh - 83px);
+    }
+    .error-404 {
+        font-size: 128px;
+    }
+}

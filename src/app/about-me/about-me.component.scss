@@ -5,14 +5,23 @@
     align-items: center;
 }
 
+.mobile-only {
+    display: none;
+}
+
 .about-me-details {
     display: flex;
     margin-bottom: 32px;
+    img {
+        object-fit: cover;
+        width: 500px;
+    }
 }
 
-.about-me-img {
-    object-fit: cover;
-    width: 500px;
+.about-me-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-me {
@@ -122,4 +131,64 @@
     height: 8px;
     border-radius: 50%;
     background-color: var(--primary-col);
+}
+
+// ######################################################################### Media queries
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 360px) {
+    .content {
+        padding: 128px 0 32px 0;
+    }
+    .mobile-border-spacing {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .mobile-only {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        h2 {
+            position: relative;
+            width: max-content;
+            font-weight: 600;
+            padding-bottom: 16px;
+            margin-bottom: 16px;
+        }
+        h2:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--black-col);
+            height: 4px;
+            border-radius: 10px;
+        }
+        p {
+            text-align: center;
+        }
+    }
+    .about-me-details {
+        flex-direction: column;
+        img {
+            width: 100%;
+            margin-bottom: 16px;
+        }
+    }
+    .about-me {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: unset;
+    }
+    .about-me-description {
+        padding: 16px;
+    }
+    .quotation-marks {
+        width: 48px;
+        height: 48px;
+    }
 }
