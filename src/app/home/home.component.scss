@@ -43,3 +43,14 @@
         text-align: center;
     }
 }
+
+@media (min-width: 360px) {
+    .content {
+        height: max-content;
+        padding-bottom: 64px;
+    }
+    h1 {
+        font-size: 44px;
+        text-align: center;
+    }
+}

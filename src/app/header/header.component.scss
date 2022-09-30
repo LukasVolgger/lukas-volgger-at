@@ -51,3 +51,10 @@ nav {
         gap: 32px;
     }
 }
+
+@media (min-width: 360px) {
+    .container-fluid {
+        justify-content: center;
+        gap: 32px;
+    }
+}

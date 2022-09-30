@@ -158,3 +158,44 @@
         height: 48px;
     }
 }
+
+@media (min-width: 360px) {
+    .content {
+        padding: 128px 0 32px 0;
+    }
+    .mobile-border-spacing {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .mobile-only {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        p {
+            text-align: center;
+        }
+    }
+    .about-me-details {
+        flex-direction: column;
+        img {
+            width: 100%;
+            margin-bottom: 16px;
+        }
+    }
+    .about-me {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: unset;
+    }
+    .about-me-description {
+        padding: 16px;
+    }
+    .quotation-marks {
+        width: 48px;
+        height: 48px;
+    }
+}

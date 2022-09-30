@@ -30,3 +30,17 @@ footer {
         }
     }
 }
+
+@media (min-width: 360px) {
+    footer {
+        flex-direction: column-reverse;
+        padding: 0 32px 16px 32px;
+        gap: 16px;
+    }
+    .footer-social-media {
+        gap: 64px;
+        img {
+            width: 24px;
+        }
+    }
+}

@@ -90,3 +90,15 @@ p {
         font-size: 28px;
     }
 }
+
+@media (min-width: 360px) {
+    .border-spacing {
+        padding: 128px 16px 0 16px;
+    }
+    p {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+}

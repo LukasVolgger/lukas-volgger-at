@@ -60,7 +60,27 @@
     .project {
         flex-direction: column;
         gap: 32px;
-        padding: 32px;
+        padding: 16px;
+        p {
+            width: unset;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 360px) {
+    .content {
+        margin-bottom: 0;
+        h2 {
+            margin-bottom: 32px;
+        }
+    }
+    .project {
+        flex-direction: column;
+        gap: 32px;
+        padding: 16px;
         p {
             width: unset;
         }

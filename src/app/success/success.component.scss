@@ -73,3 +73,12 @@
         width: unset;
     }
 }
+
+@media (min-width: 360px) {
+    .content {
+        height: calc(100vh - 83px);
+    }
+    .alert {
+        width: unset;
+    }
+}

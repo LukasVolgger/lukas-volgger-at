@@ -40,3 +40,17 @@
         }
     }
 }
+
+@media (min-width: 360px) {
+    p {
+        text-align: center;
+    }
+    .principle {
+        margin: 0 0 16px 0;
+        div {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 8px;
+        }
+    }
+}
