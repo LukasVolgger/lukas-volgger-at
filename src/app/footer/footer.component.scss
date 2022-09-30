@@ -2,7 +2,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 32px;
+    margin-top: 32px;
     padding-bottom: 64px;
 }
 
@@ -41,6 +41,16 @@ footer {
         gap: 64px;
         img {
             width: 24px;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .footer-social-media {
+        gap: 96px;
+        img {
+            width: 32px;
         }
     }
 }

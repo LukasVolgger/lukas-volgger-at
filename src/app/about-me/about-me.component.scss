@@ -120,7 +120,7 @@
 // Extra small devices (max 360px)
 @media (max-width: 360px) {
     .content {
-        padding: 128px 0 32px 0;
+        padding: 128px 0 0 0;
     }
     .mobile-border-spacing {
         padding-right: 16px;
@@ -161,7 +161,7 @@
 
 @media (min-width: 360px) {
     .content {
-        padding: 128px 0 32px 0;
+        padding: 128px 0 0 0;
     }
     .mobile-border-spacing {
         padding-right: 16px;
@@ -197,5 +197,13 @@
     .quotation-marks {
         width: 48px;
         height: 48px;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .mobile-border-spacing {
+        padding-right: 32px;
+        padding-left: 32px;
     }
 }

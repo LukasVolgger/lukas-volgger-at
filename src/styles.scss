@@ -78,7 +78,7 @@ p {
 }
 
 // ######################################################################### Media queries
-// Small devices (landscape phones, 576px and up)
+// Extra small devices (max 360px)
 @media (max-width: 360px) {
     .border-spacing {
         padding: 128px 16px 0 16px;
@@ -100,5 +100,26 @@ p {
     }
     h2 {
         font-size: 28px;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .border-spacing {
+        padding: 128px 32px 0 32px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .border-spacing {
+        padding: 128px 64px 0 64px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .border-spacing {
+        padding: 128px 96px 0 96px;
     }
 }

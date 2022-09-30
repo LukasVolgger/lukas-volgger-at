@@ -58,3 +58,10 @@ nav {
         gap: 32px;
     }
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .container-fluid {
+        gap: 64px;
+    }
+}

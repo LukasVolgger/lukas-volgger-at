@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 64px;
 }
 
 .contact-header {
@@ -72,5 +71,15 @@
     }
     .form-label {
         font-size: 14px;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .content {
+        padding: 0 32px 0 32px;
+    }
+    .contact-form {
+        width: 80%;
     }
 }
