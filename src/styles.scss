@@ -42,6 +42,25 @@ p {
     padding: 128px 96px 0 96px;
 }
 
+.page-heading {
+    position: relative;
+    width: max-content;
+    font-weight: 600;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+}
+
+.page-heading:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--black-col);
+    height: 4px;
+    border-radius: 10px;
+}
+
 .btn {
     width: 112px;
     height: 56px;
