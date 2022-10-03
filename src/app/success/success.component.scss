@@ -89,3 +89,10 @@
         height: calc(100vh - 122px);
     }
 }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .content {
+        height: calc(100vh - 138px);
+    }
+}

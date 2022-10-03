@@ -1,7 +1,6 @@
 .content {
     display: flex;
     position: relative;
-    height: 600px;
     background-image: url('./../../assets/img/samples/mountains_snow_forest_1920.jpg');
     background-position-y: 70%;
     background-size: cover;
@@ -59,5 +58,12 @@
 @media (min-width: 576px) {
     .content {
         padding-bottom: 96px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .content {
+        padding-bottom: 128px;
     }
 }

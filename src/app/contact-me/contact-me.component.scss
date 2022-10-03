@@ -83,3 +83,10 @@
         width: 80%;
     }
 }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .content {
+        padding: 0 64px 0 64px;
+    }
+}

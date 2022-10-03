@@ -54,3 +54,12 @@ footer {
         }
     }
 }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .footer-social-media {
+        img {
+            width: 48px;
+        }
+    }
+}
