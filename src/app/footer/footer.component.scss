@@ -63,3 +63,12 @@ footer {
         }
     }
 }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    footer {
+        flex-direction: row;
+        padding: 0 96px 64px 96px;
+        margin-top: 64px;
+    }
+}

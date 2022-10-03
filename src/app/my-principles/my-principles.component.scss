@@ -61,3 +61,15 @@
         margin: 0 0 32px 0;
     }
 }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    p {
+        text-align: unset;
+    }
+    .principle {
+        div {
+            justify-content: flex-start;
+        }
+    }
+}

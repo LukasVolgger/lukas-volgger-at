@@ -214,7 +214,39 @@
         padding: 32px 96px 32px 96px;
     }
     .quotation-marks {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .content {
+        padding: 128px 96px 0 96px;
+    }
+    .mobile-border-spacing {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .hide-mobile {
+        display: flex;
+    }
+    .mobile-only {
+        display: none;
+    }
+    .quotation-marks {
         width: 80px;
         height: 80px;
+    }
+    .about-me-details {
+        flex-direction: row;
+        img {
+            width: 400px;
+            margin-bottom: 0;
+        }
+    }
+    .about-me {
+        padding: 32px;
+        background-color: var(--section-col);
     }
 }

@@ -90,3 +90,10 @@
         padding: 0 64px 0 64px;
     }
 }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .contact-form {
+        width: 60%;
+    }
+}

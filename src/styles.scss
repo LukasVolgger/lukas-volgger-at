@@ -119,6 +119,15 @@ p {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    h1 {
+        font-size: 54px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 18px;
+    }
     .border-spacing {
         padding: 128px 96px 0 96px;
     }

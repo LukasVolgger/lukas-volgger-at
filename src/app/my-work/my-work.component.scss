@@ -30,7 +30,7 @@
 }
 
 .row-reverse {
-    flex-direction: row-reverse;
+    flex-direction: row-reverse !important;
 }
 
 .project-description {
@@ -101,5 +101,20 @@
 @media (min-width: 768px) {
     .project {
         padding: 64px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .project {
+        flex-direction: row;
+        gap: 128px;
+        padding: 96px;
+        p {
+            width: unset;
+        }
+        img {
+            width: 448px;
+        }
     }
 }

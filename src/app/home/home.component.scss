@@ -44,13 +44,16 @@
 }
 
 @media (min-width: 360px) {
+    h1 {
+        font-size: 44px;
+        text-align: center;
+    }
     .content {
         height: max-content;
         padding-bottom: 64px;
     }
-    h1 {
-        font-size: 44px;
-        text-align: center;
+    .home-banner {
+        width: 442px;
     }
 }
 
@@ -59,11 +62,27 @@
     .content {
         padding-bottom: 96px;
     }
+    .home-banner {
+        width: 442px;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     .content {
         padding-bottom: 128px;
+    }
+    .home-banner {
+        width: 442px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .content {
+        padding-bottom: 160px;
+    }
+    .home-banner {
+        width: 442px;
     }
 }
