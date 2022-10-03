@@ -30,7 +30,7 @@
 }
 
 .row-reverse {
-    flex-direction: row-reverse !important;
+    flex-direction: row-reverse;
 }
 
 .project-description {
@@ -116,5 +116,8 @@
         img {
             width: 448px;
         }
+    }
+    .row-reverse {
+        flex-direction: row-reverse !important;
     }
 }
