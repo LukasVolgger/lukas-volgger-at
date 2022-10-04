@@ -1,6 +1,13 @@
-<app-header></app-header>
-<router-outlet></router-outlet>
-<!-- TODO Remove test module -->
-<!-- <app-success>></app-success> -->
-<app-back-to-top-btn></app-back-to-top-btn>
-<app-footer></app-footer>
+<app-header *ngIf="!loading"></app-header>
+<router-outlet *ngIf="!loading"></router-outlet>
+<app-back-to-top-btn *ngIf="!loading"></app-back-to-top-btn>
+<app-footer *ngIf="!loading"></app-footer>
+<!-- LOADING SCREEN - BEGIN -->
+<div class="loading-screen" *ngIf="loading">
+    <div class="bouncing-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- LOADING SCREEN - END -->
