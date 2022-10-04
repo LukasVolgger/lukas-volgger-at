@@ -13,6 +13,7 @@ import { SuccessComponent } from './success/success.component';
 import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 import { MyPrinciplesComponent } from './my-principles/my-principles.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { BackToTopBtnComponent } from './back-to-top-btn/back-to-top-btn.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     SuccessComponent,
     LegalNoticeComponent,
     MyPrinciplesComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    BackToTopBtnComponent
   ],
   imports: [
     BrowserModule,
