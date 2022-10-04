@@ -11,9 +11,7 @@ button {
     height: 56px;
     padding: 0;
     img {
-        object-fit: cover;
-        width: 100%;
-        padding: 8px;
+        padding: 18px;
         &:hover {
             filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(4370%) hue-rotate(303deg) brightness(122%) contrast(100%);
         }
