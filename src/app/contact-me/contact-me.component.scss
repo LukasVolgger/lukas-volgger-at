@@ -98,3 +98,29 @@ a {
         width: 60%;
     }
 }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .contact-form {
+        width: 55%;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    .contact-form {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1650px) {
+    .contact-form {
+        width: 45%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .contact-form {
+        width: 40%;
+    }
+}

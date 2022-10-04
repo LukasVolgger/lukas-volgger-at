@@ -63,12 +63,15 @@
     .content {
         height: calc(100vh - 122px);
     }
+    .error-404 {
+        font-size: 160px;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     .content {
-        height: calc(100vh - 138px);
+        height: calc(100vh - 154px);
     }
 }
 
@@ -76,5 +79,22 @@
 @media (min-width: 992px) {
     .content {
         height: calc(100vh - 176px);
+    }
+    .error-404 {
+        font-size: 192px;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .error-404 {
+        font-size: 224px;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    .error-404 {
+        font-size: 256px;
     }
 }

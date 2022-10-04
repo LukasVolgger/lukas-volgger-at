@@ -239,6 +239,7 @@
         height: 80px;
     }
     .about-me-details {
+        width: 100%;
         flex-direction: row;
         img {
             width: 400px;
@@ -246,6 +247,7 @@
         }
     }
     .about-me {
+        flex: 1;
         padding: 32px;
         background-color: var(--section-col);
     }
