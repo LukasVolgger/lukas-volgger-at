@@ -19,13 +19,6 @@
     p {
         color: rgb(96, 96, 96);
     }
-    a {
-        color: #639DFC;
-        text-decoration: none;
-        &:hover {
-            text-decoration: underline;
-        }
-    }
 }
 
 .contact-form {
@@ -46,6 +39,14 @@
     background-color: #EEF4FF;
     border: none;
     resize: none;
+}
+
+a {
+    color: #639DFC;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 // ######################################################################### Media queries
