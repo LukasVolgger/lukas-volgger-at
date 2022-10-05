@@ -40,12 +40,25 @@
     align-items: center;
 }
 
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+    span {
+        border: 1px solid var(--primary-col);
+        border-radius: 0.375rem;
+        padding: 4px;
+        color: var(--primary-col);
+    }
+}
+
 .project-btns {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 32px;
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 // ######################################################################### Media queries
@@ -67,6 +80,9 @@
         img {
             width: 100%;
         }
+    }
+    .tags-container {
+        justify-content: center;
     }
 }
 
