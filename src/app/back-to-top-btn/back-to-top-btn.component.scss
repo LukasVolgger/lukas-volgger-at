@@ -28,9 +28,29 @@ button {
     }
 }
 
+@media (min-width: 360px) {
+    button {
+        bottom: 12px;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    button {
+        bottom: 16px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    button {
+        bottom: 24px;
+    }
+}
+
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
     button {
-        bottom: 33px;
+        bottom: 32px;
     }
 }
