@@ -121,3 +121,29 @@
         flex-direction: row-reverse !important;
     }
 }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .project {
+        img {
+            width: 512px;
+        }
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    .project {
+        img {
+            width: 576px;
+        }
+    }
+}
+
+@media (min-width: 2000px) {
+    .project {
+        img {
+            width: 640px;
+        }
+    }
+}
