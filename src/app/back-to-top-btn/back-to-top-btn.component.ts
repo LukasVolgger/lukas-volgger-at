@@ -17,8 +17,17 @@ export class BackToTopBtnComponent implements OnInit {
     })
   }
 
+  /**
+   * Scroll to the top
+   */
   scrollToTop() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    // The timeout is needed to prevent scrolling from stopping immediately after a few pixels
+    setTimeout(() => {
+      window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }, 250);
   }
 }
