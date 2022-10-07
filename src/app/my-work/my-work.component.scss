@@ -38,6 +38,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    a {
+        color: #639DFC;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 .tags-container {
