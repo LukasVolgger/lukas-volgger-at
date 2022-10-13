@@ -10,7 +10,7 @@
     }
     p {
         color: white;
-        text-align: center;
+        // text-align: center;
     }
     svg {
         position: absolute;
@@ -34,11 +34,16 @@
 // Extra small devices (max 360px)
 @media (max-width: 360px) {
     .content {
+        justify-content: center;
         height: max-content;
         padding-bottom: 64px;
     }
     h1 {
         font-size: 44px;
+        text-align: center;
+    }
+    .home-banner {
+        align-items: center;
         text-align: center;
     }
 }
@@ -49,10 +54,13 @@
         text-align: center;
     }
     .content {
+        justify-content: center;
         height: max-content;
         padding-bottom: 64px;
     }
     .home-banner {
+        align-items: center;
+        text-align: center;
         width: 442px;
     }
 }
@@ -60,9 +68,12 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
     .content {
+        justify-content: unset;
         padding-bottom: 96px;
     }
     .home-banner {
+        align-items: flex-start;
+        text-align: start;
         width: 442px;
     }
 }
