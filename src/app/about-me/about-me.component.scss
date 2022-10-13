@@ -75,6 +75,30 @@
     }
 }
 
+.skill-1 {
+    animation: skills-animation-1 1250ms ease-in-out;
+}
+
+.skill-2 {
+    animation: skills-animation-2 1250ms ease-in-out;
+}
+
+.skill-3 {
+    animation: skills-animation-3 1250ms ease-in-out;
+}
+
+.skill-4 {
+    animation: skills-animation-4 1250ms ease-in-out;
+}
+
+.skill-5 {
+    animation: skills-animation-5 1250ms ease-in-out;
+}
+
+.skill-6 {
+    animation: skills-animation-6 1250ms ease-in-out;
+}
+
 .about-me-description {
     display: flex;
     flex-direction: column;
@@ -124,6 +148,60 @@
     height: 8px;
     border-radius: 50%;
     background-color: var(--primary-col);
+}
+
+@keyframes skills-animation-1 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 75%;
+    }
+}
+
+@keyframes skills-animation-2 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 60%;
+    }
+}
+
+@keyframes skills-animation-3 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 40%;
+    }
+}
+
+@keyframes skills-animation-4 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 30%;
+    }
+}
+
+@keyframes skills-animation-5 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes skills-animation-6 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
 }
 
 // ######################################################################### Media queries
