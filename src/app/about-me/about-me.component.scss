@@ -19,7 +19,7 @@
     }
 }
 
-.about-me-details {
+.about-me-container {
     display: flex;
     margin-bottom: 32px;
     img {
@@ -28,7 +28,7 @@
     }
 }
 
-.about-me-header {
+.about-me-description {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,7 +148,7 @@
             text-align: center;
         }
     }
-    .about-me-details {
+    .about-me-container {
         flex-direction: column;
         img {
             width: 100%;
@@ -189,7 +189,7 @@
             text-align: center;
         }
     }
-    .about-me-details {
+    .about-me-container {
         flex-direction: column;
         img {
             width: 100%;
@@ -248,7 +248,7 @@
         width: 80px;
         height: 80px;
     }
-    .about-me-details {
+    .about-me-container {
         width: 100%;
         flex-direction: row;
         img {
