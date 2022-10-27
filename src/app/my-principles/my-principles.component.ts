@@ -17,9 +17,11 @@ export class MyPrinciplesComponent implements OnInit {
    * Fades in the contents from left to right within a selected timeOut with an animation
    */
   animatePrinciples() {
-    let factor = 200;
+    let start = 0;
+    let delay = 600;
+
     for (let index = 1; index <= 4; index++) {
-      let timeOut = factor += 300;
+      let timeOut = start += delay;
       setTimeout(() => {
         const element = document.getElementById(`principle-${index}`);
         element?.classList.add('fade-in-animation');
