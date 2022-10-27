@@ -12,7 +12,7 @@ const routerOptions: ExtraOptions = {
   onSameUrlNavigation: 'reload',
   anchorScrolling: 'enabled',
   scrollOffset: [0, 96],
-  useHash: true
+  // useHash: true
 }
 
 const routes: Routes = [
