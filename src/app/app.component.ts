@@ -38,10 +38,6 @@ export class AppComponent {
     this.router.events.subscribe((e: RouterEvent) => {
       this.navigationInterceptor(e);
     })
-
-    setInterval(() => {
-      console.log(this.navigationLoading);
-    }, 1000)
   }
 
   // Shows and hides the loading spinner during RouterEvent changes
