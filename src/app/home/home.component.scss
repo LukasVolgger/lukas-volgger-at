@@ -1,22 +1,24 @@
 .content {
     display: flex;
+    justify-content: center;
     position: relative;
-    background-image: url('./../../assets/img/background/mountains_1920.jpg');
-    background-position-y: 70%;
+    background-image: url('./../../assets/img/background/server.jpg');
+    background-position-y: 50%;
     background-size: cover;
+    margin-bottom: 32px;
     h1 {
         color: white;
         margin-bottom: 32px;
         span {
-            color: white;
+            color: #0d6efd;
         }
     }
-    svg {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
+    // svg {
+    //     position: absolute;
+    //     right: 0;
+    //     bottom: 0;
+    //     left: 0;
+    // }
 }
 
 .home-banner {
@@ -24,8 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: max-content;
-    margin-top: 64px;
+    height: 400px;
 }
 
 // ######################################################################### Media queries
@@ -34,7 +35,7 @@
     .content {
         justify-content: center;
         height: max-content;
-        padding-bottom: 64px;
+        // padding-bottom: 64px;
     }
     h1 {
         font-size: 44px;
@@ -54,53 +55,6 @@
     .content {
         justify-content: center;
         height: max-content;
-        padding-bottom: 64px;
-    }
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-    .content {
-        justify-content: unset;
-        padding-bottom: 96px;
-    }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    .content {
-        padding-bottom: 128px;
-    }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    .content {
-        padding-bottom: 176px;
-    }
-}
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {
-    .content {
-        padding-bottom: 208px;
-    }
-}
-
-@media (min-width: 2000px) {
-    .content {
-        padding-bottom: 240px;
-    }
-}
-
-@media (min-width: 2200px) {
-    .content {
-        padding-bottom: 272px;
-    }
-}
-
-@media (min-width: 2400px) {
-    .content {
-        padding-bottom: 304px;
+        // padding-bottom: 64px;
     }
 }
