@@ -7,10 +7,9 @@
     h1 {
         color: white;
         margin-bottom: 32px;
-    }
-    p {
-        color: white;
-        // text-align: center;
+        span {
+            color: white;
+        }
     }
     svg {
         position: absolute;
@@ -25,7 +24,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 600px;
     height: max-content;
     margin-top: 64px;
 }
@@ -58,11 +56,6 @@
         height: max-content;
         padding-bottom: 64px;
     }
-    .home-banner {
-        align-items: center;
-        text-align: center;
-        width: 442px;
-    }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -71,11 +64,6 @@
         justify-content: unset;
         padding-bottom: 96px;
     }
-    .home-banner {
-        align-items: flex-start;
-        text-align: start;
-        width: 442px;
-    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -83,18 +71,12 @@
     .content {
         padding-bottom: 128px;
     }
-    .home-banner {
-        width: 442px;
-    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
     .content {
         padding-bottom: 176px;
-    }
-    .home-banner {
-        width: 442px;
     }
 }
 
