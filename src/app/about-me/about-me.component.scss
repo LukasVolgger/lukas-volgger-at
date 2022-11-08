@@ -11,6 +11,7 @@
 
 .profile-picture-container {
     display: flex;
+    justify-content: center;
     max-height: 100%;
 }
 
@@ -292,10 +293,20 @@
     .closing-text {
         padding: 16px 64px 16px 64px;
     }
+    .profile-picture-container {
+        img {
+            width: 80%;
+        }
+    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    .profile-picture-container {
+        img {
+            width: 60%;
+        }
+    }
     .quotation-marks {
         width: 64px;
         height: 64px;
