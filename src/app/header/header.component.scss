@@ -43,15 +43,33 @@ nav {
     box-shadow: none;
 }
 
+.nav-links-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
 // ######################################################################### Media queries
 // Extra small devices (max 360px)
 @media (max-width: 360px) {
+    .navbar-mobile {
+        display: flex;
+    }
+    .navbar-desktop {
+        display: none;
+    }
     .container-fluid {
         gap: 32px;
     }
 }
 
 @media (min-width: 360px) {
+    .navbar-mobile {
+        display: flex;
+    }
+    .navbar-desktop {
+        display: none;
+    }
     .container-fluid {
         gap: 32px;
     }
@@ -59,6 +77,12 @@ nav {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+    .navbar-mobile {
+        display: none;
+    }
+    .navbar-desktop {
+        display: flex;
+    }
     .container-fluid {
         gap: 64px;
     }
