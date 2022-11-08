@@ -77,8 +77,8 @@ export class AppComponent {
     this.preloadImage('./../assets/img/project covers/portfolio_cover.png');
     this.preloadImage('./../assets/img/project covers/sharkie_cover.png');
     this.preloadImage('./../assets/img/project covers/tic_tac_toe_cover.png');
-    this.preloadImage('./../assets/img/logo_lv_673.png');
-    this.preloadImage('./../assets/img/lukas_volgger_1080.png');
+    this.preloadImage('./../assets/img/logo.png');
+    this.preloadImage('./../assets/img/lukas_volgger.png');
   }
 
   /**
