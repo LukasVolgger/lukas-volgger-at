@@ -77,6 +77,13 @@ p {
     }
 }
 
+.nav-link-active {
+    color: var(--black-col);
+    font-weight: 500;
+    border-bottom: solid 2px var(--black-col);
+    transition: all 125ms ease-in-out;
+}
+
 // ######################################################################### Media queries
 // Extra small devices (max 360px)
 @media (max-width: 360px) {

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,51 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) {
+    router.events.forEach((event) => {
+      if (event instanceof NavigationEnd) {
+        let url = this.router.url;
+
+        switch (url) {
+          case '/':
+            document.getElementById('nav-link-home')?.classList.add('nav-link-active');
+
+            document.getElementById('nav-link-about-me')?.classList.remove('nav-link-active');
+            document.getElementById('nav-link-my-work')?.classList.remove('nav-link-active');
+            document.getElementById('nav-link-contact')?.classList.remove('nav-link-active');
+            break;
+
+          case '/about-me':
+            document.getElementById('nav-link-about-me')?.classList.add('nav-link-active');
+
+            document.getElementById('nav-link-home')?.classList.remove('nav-link-active');
+            document.getElementById('nav-link-my-work')?.classList.remove('nav-link-active');
+            document.getElementById('nav-link-contact')?.classList.remove('nav-link-active');
+            break;
+
+          case '/#my-work':
+            document.getElementById('nav-link-my-work')?.classList.add('nav-link-active');
+
+            document.getElementById('nav-link-home')?.classList.remove('nav-link-active');
+            document.getElementById('nav-link-about-me')?.classList.remove('nav-link-active');
+            document.getElementById('nav-link-contact')?.classList.remove('nav-link-active');
+            break;
+
+          case '/#contact':
+            document.getElementById('nav-link-contact')?.classList.add('nav-link-active');
+
+            document.getElementById('nav-link-home')?.classList.remove('nav-link-active');
+            document.getElementById('nav-link-about-me')?.classList.remove('nav-link-active');
+            document.getElementById('nav-link-my-work')?.classList.remove('nav-link-active');
+            break;
+
+        }
+      }
+    });
+  }
 
   ngOnInit(): void {
+
   }
 
 }
