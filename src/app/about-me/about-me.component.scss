@@ -11,12 +11,7 @@
 
 .profile-picture-container {
     display: flex;
-    position: relative;
-    .profile-img {
-        position: absolute;
-        bottom: 0;
-        height: 75%;
-    }
+    max-height: 100%;
 }
 
 .about-me-container {
