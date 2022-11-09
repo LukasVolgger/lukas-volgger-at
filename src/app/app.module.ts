@@ -13,6 +13,7 @@ import { SuccessComponent } from './success/success.component';
 import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BackToTopBtnComponent } from './back-to-top-btn/back-to-top-btn.component';
+import { NgxTypedJsModule } from 'ngx-typed-js';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { BackToTopBtnComponent } from './back-to-top-btn/back-to-top-btn.compone
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxTypedJsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

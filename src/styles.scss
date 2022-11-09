@@ -3,6 +3,7 @@
     // Colors
     --link-col: #BABABA;
     --black-col: #282828;
+    --red-col: #ff0050;
     --section-col: #f2f2f2ff;
     --primary-col: #126BFB;
     --description-col: rgb(96, 96, 96);
@@ -25,7 +26,7 @@ body {
 }
 
 h1 {
-    font-size: 54px;
+    font-size: 44px;
     margin: 0;
 }
 
@@ -36,6 +37,11 @@ h2 {
 
 p {
     font-size: 18px;
+}
+
+code {
+    color: var(--red-col) !important;
+    font-size: 44px;
 }
 
 .border-spacing {
@@ -126,9 +132,6 @@ p {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    h1 {
-        font-size: 54px;
-    }
     h2 {
         font-size: 36px;
     }
