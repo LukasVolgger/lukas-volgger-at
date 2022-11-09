@@ -308,8 +308,8 @@
         }
     }
     .quotation-marks {
-        width: 64px;
-        height: 64px;
+        width: 60px;
+        height: 60px;
     }
 }
 
@@ -328,10 +328,6 @@
     .mobile-only {
         display: none;
     }
-    .quotation-marks {
-        width: 80px;
-        height: 80px;
-    }
     .about-me-container {
         width: 100%;
         flex-direction: row;
@@ -347,5 +343,17 @@
     }
     .closing-text {
         padding: 32px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .content {
+        padding: 128px 256px 0 256px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .content {
+        padding: 128px 384px 0 384px;
     }
 }

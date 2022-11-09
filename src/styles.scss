@@ -142,3 +142,15 @@ code {
         padding: 128px 96px 0 96px;
     }
 }
+
+@media (min-width: 1600px) {
+    .border-spacing {
+        padding: 128px 256px 0 256px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .border-spacing {
+        padding: 128px 384px 0 384px;
+    }
+}

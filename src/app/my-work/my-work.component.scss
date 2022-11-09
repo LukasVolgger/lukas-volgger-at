@@ -165,10 +165,17 @@
     }
 }
 
+@media (min-width: 1600px) {
+    .project {
+        padding: 96px 256px 96px 256px;
+    }
+}
+
 @media (min-width: 2000px) {
     .project {
         img {
             width: 640px;
         }
+        padding: 96px 384px 96px 384px;
     }
 }
