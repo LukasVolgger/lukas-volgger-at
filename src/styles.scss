@@ -15,6 +15,23 @@
     src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
 }
 
+// ######################################################################### Scrollbar
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #212529;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #474a4c;
+}
+
 // ######################################################################### General
 html {
     scroll-behavior: smooth;
