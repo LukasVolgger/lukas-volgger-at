@@ -67,8 +67,7 @@ export class AppComponent {
    * Help function to collect all preloaders
    */
   preloadImages() {
-    this.preloadImage('./../assets/img/background/forest_1920.jpg');
-    this.preloadImage('./../assets/img/background/mountains_1920.jpg');
+    this.preloadImage('./../assets/img/background/network.jpg');
     this.preloadImage('./../assets/img/cover/lukas-volgger-at_cover.png');
     this.preloadImage('./../assets/img/project covers/delivery_service_cover.png');
     this.preloadImage('./../assets/img/project covers/join_cover.png');
