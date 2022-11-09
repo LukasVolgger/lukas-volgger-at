@@ -14,6 +14,7 @@ import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BackToTopBtnComponent } from './back-to-top-btn/back-to-top-btn.component';
 import { NgxTypedJsModule } from 'ngx-typed-js';
+import { InViewportModule } from 'ng-in-viewport';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { NgxTypedJsModule } from 'ngx-typed-js';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxTypedJsModule
+    NgxTypedJsModule,
+    InViewportModule
   ],
   providers: [],
   bootstrap: [AppComponent]
