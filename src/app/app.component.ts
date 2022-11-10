@@ -74,6 +74,7 @@ export class AppComponent {
     this.preloadImage('./../assets/img/project covers/photo_gallery_cover.png');
     this.preloadImage('./../assets/img/project covers/pokedex_cover.png');
     this.preloadImage('./../assets/img/project covers/portfolio_cover.png');
+    this.preloadImage('./../assets/img/project covers/ring_of_fire_cover.png');
     this.preloadImage('./../assets/img/project covers/sharkie_cover.png');
     this.preloadImage('./../assets/img/project covers/tic_tac_toe_cover.png');
     this.preloadImage('./../assets/img/logo.png');
