@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LoadingHandlerService } from 'src/services/loading-handler.service';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(public loader: LoadingHandlerService) { }
 
   ngOnInit(): void {
   }

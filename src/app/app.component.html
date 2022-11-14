@@ -1,9 +1,9 @@
-<app-header *ngIf="!loading && !navigationLoading"></app-header>
-<router-outlet *ngIf="!loading && !navigationLoading"></router-outlet>
-<app-back-to-top-btn *ngIf="!loading && !navigationLoading"></app-back-to-top-btn>
-<app-footer *ngIf="!loading && !navigationLoading"></app-footer>
+<app-header *ngIf="!this.loader.loading"></app-header>
+<router-outlet *ngIf="!this.loader.loading && !this.loader.navigationLoading"></router-outlet>
+<app-back-to-top-btn *ngIf="!this.loader.loading && !this.loader.navigationLoading"></app-back-to-top-btn>
+<app-footer *ngIf="!this.loader.loading && !this.loader.navigationLoading"></app-footer>
 <!-- LOADING SCREEN - BEGIN -->
-<div class="loading-screen" *ngIf="loading || navigationLoading">
+<div class="loading-screen" *ngIf="this.loader.loading || this.loader.navigationLoading">
     <div class="bouncing-loader">
         <div></div>
         <div></div>

@@ -1,6 +1,6 @@
 <div class="content border-spacing">
-    <div class="home-banner">
-        <ngx-typed-js [typeSpeed]="100" [backSpeed]="80" [backDelay]="2000" [contentType]="'html'" [strings]="['Front-End <code>Developer</code>.']" [loop]="true">
+    <div class="home-banner" *ngIf="!this.loader.loading && !this.loader.navigationLoading">
+        <ngx-typed-js [typeSpeed]="100" [startDelay]="1000" [backSpeed]="80" [backDelay]="2000" [contentType]="'html'" [strings]="['Front-End <code>Developer</code>.']" [loop]="true">
             <h1>Hello, i am <code>Lukas Volgger</code></h1>
             <span class="headline">I'm a <span class="typing headline"></span></span>
         </ngx-typed-js>
