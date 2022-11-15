@@ -15,13 +15,14 @@
     max-height: 100%;
 }
 
+.profile-img {
+    object-fit: cover;
+    width: 500px;
+}
+
 .about-me-container {
     display: flex;
     margin-bottom: 32px;
-    img {
-        object-fit: cover;
-        width: 500px;
-    }
 }
 
 .about-me-description {
@@ -52,9 +53,37 @@
 
 .skills-container {
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
     width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    gap: 8px;
+    margin: 0 0 0;
+    img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+    figcaption {
+        font-size: 12px;
+        font-weight: bold;
+    }
 }
 
 .progress {
@@ -69,30 +98,6 @@
         font-size: 16px;
         margin-left: 8px;
     }
-}
-
-.skill-1 {
-    animation: skills-animation-1 1250ms ease-in-out;
-}
-
-.skill-2 {
-    animation: skills-animation-2 1250ms ease-in-out;
-}
-
-.skill-3 {
-    animation: skills-animation-3 1250ms ease-in-out;
-}
-
-.skill-4 {
-    animation: skills-animation-4 1250ms ease-in-out;
-}
-
-.skill-5 {
-    animation: skills-animation-5 1250ms ease-in-out;
-}
-
-.skill-6 {
-    animation: skills-animation-6 1250ms ease-in-out;
 }
 
 .closing-text {
@@ -146,60 +151,6 @@
     background-color: var(--primary-col);
 }
 
-@keyframes skills-animation-1 {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 75%;
-    }
-}
-
-@keyframes skills-animation-2 {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 60%;
-    }
-}
-
-@keyframes skills-animation-3 {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 40%;
-    }
-}
-
-@keyframes skills-animation-4 {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 30%;
-    }
-}
-
-@keyframes skills-animation-5 {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 50%;
-    }
-}
-
-@keyframes skills-animation-6 {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 80%;
-    }
-}
-
 // ######################################################################### Media queries
 // Extra small devices (max 360px)
 @media (max-width: 360px) {
@@ -224,10 +175,10 @@
     }
     .about-me-container {
         flex-direction: column;
-        img {
-            width: 100%;
-            margin-bottom: 16px;
-        }
+    }
+    .profile-img {
+        width: 100%;
+        margin-bottom: 16px;
     }
     .about-me {
         padding-top: 0;
@@ -265,10 +216,10 @@
     }
     .about-me-container {
         flex-direction: column;
-        img {
-            width: 100%;
-            margin-bottom: 16px;
-        }
+    }
+    .profile-img {
+        width: 100%;
+        margin-bottom: 16px;
     }
     .about-me {
         padding-top: 0;
@@ -293,19 +244,15 @@
     .closing-text {
         padding: 16px 64px 16px 64px;
     }
-    .profile-picture-container {
-        img {
-            width: 80%;
-        }
+    .profile-img {
+        width: 80%;
     }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    .profile-picture-container {
-        img {
-            width: 60%;
-        }
+    .profile-img {
+        width: 60%;
     }
     .quotation-marks {
         width: 60px;
@@ -331,10 +278,10 @@
     .about-me-container {
         width: 100%;
         flex-direction: row;
-        img {
-            width: 400px;
-            margin-bottom: 0;
-        }
+    }
+    .profile-img {
+        width: 400px;
+        margin-bottom: 0;
     }
     .about-me {
         flex: 1;
