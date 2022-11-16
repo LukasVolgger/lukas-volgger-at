@@ -61,12 +61,6 @@
     width: 100%;
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
 figure {
     display: flex;
     flex-direction: column;
@@ -83,20 +77,6 @@ figure {
     figcaption {
         font-size: 12px;
         font-weight: bold;
-    }
-}
-
-.progress {
-    position: relative;
-    width: 100%;
-    height: 24px;
-    border-radius: 0;
-    background-color: #79ACFF;
-    span {
-        position: absolute;
-        color: white;
-        font-size: 16px;
-        margin-left: 8px;
     }
 }
 
@@ -293,14 +273,50 @@ figure {
     }
 }
 
+@media (min-width: 1200px) {
+    .closing-text {
+        padding: 32px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .closing-text {
+        padding: 32px 64px 32px 64px;
+    }
+}
+
 @media (min-width: 1600px) {
     .content {
         padding: 128px 256px 0 256px;
+    }
+    .closing-text {
+        padding: 32px 96px 32px 96px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .closing-text {
+        padding: 32px 128px 32px 128px;
     }
 }
 
 @media (min-width: 2000px) {
     .content {
         padding: 128px 384px 0 384px;
+    }
+    .closing-text {
+        padding: 32px 160px 32px 160px;
+    }
+}
+
+@media (min-width: 2200px) {
+    .closing-text {
+        padding: 32px 192px 32px 192px;
+    }
+}
+
+@media (min-width: 2400px) {
+    .closing-text {
+        padding: 32px 256px 32px 256px;
     }
 }
