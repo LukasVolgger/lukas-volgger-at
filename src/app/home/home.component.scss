@@ -99,12 +99,12 @@
     }
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
     .content {
         height: unset;
     }
-    .hide-576px {
+    .hide-desktop {
         display: none;
     }
 }
