@@ -25,13 +25,58 @@
     height: 300px;
 }
 
+.arrow,
+.arrow:before {
+    position: absolute;
+    left: 50%;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    bottom: 128px;
+    margin: -20px 0 0 -20px;
+    transform: rotate(45deg);
+    border-left: none;
+    border-top: none;
+    border-right: 2px #fff solid;
+    border-bottom: 2px #fff solid;
+    background-color: transparent;
+}
+
+.arrow:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    margin: -10px 0 0 -10px;
+    border-left: none;
+    border-top: none;
+    border-right: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: arrow;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-10px, -10px);
+    }
+}
+
+;
 // ######################################################################### Media queries
 // Extra small devices (max 360px)
 @media (max-width: 360px) {
     .content {
         justify-content: center;
-        height: max-content;
-        // padding-bottom: 64px;
+        // height: max-content;
+        height: 100vh;
     }
     h1 {
         font-size: 44px;
@@ -50,7 +95,16 @@
     }
     .content {
         justify-content: center;
-        height: max-content;
-        // padding-bottom: 64px;
+        height: 100vh;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .content {
+        height: unset;
+    }
+    .hide-576px {
+        display: none;
     }
 }
