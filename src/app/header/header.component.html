@@ -48,10 +48,10 @@
     <nav class="navbar navbar-desktop fixed-top border-spacing">
         <a routerLink="" title="Home"><img class="nav-logo" src="../../assets/img/logo.png" alt="Logo"></a>
         <div class="nav-links-container">
-            <a id="nav-link-home" class="nav-link nav-link-active" routerLink="">Home</a>
-            <a id="nav-link-about-me" class="nav-link" routerLink="/about-me">About Me</a>
-            <a id="nav-link-my-work" class="nav-link" routerLink="" fragment="my-work">My Work</a>
-            <a id="nav-link-contact" class="nav-link" routerLink="" fragment="contact">Contact</a>
+            <a [ngClass]="{'nav-link-active': this.nav.currentInView == 'home'}" id="nav-link-home" class="nav-link nav-link-active" routerLink="">Home</a>
+            <a [ngClass]="{'nav-link-active': this.nav.currentInView == 'about-me'}" id="nav-link-about-me" class="nav-link" routerLink="/about-me">About Me</a>
+            <a [ngClass]="{'nav-link-active': this.nav.currentInView == 'my-work-begin' || this.nav.currentInView == 'my-work-end'}" id="nav-link-my-work" class="nav-link" routerLink="" fragment="my-work">My Work</a>
+            <a [ngClass]="{'nav-link-active': this.nav.currentInView == 'contact'}" id="nav-link-contact" class="nav-link" routerLink="" fragment="contact">Contact</a>
         </div>
     </nav>
 </header>

@@ -14,6 +14,7 @@ import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BackToTopBtnComponent } from './back-to-top-btn/back-to-top-btn.component';
 import { NgxTypedJsModule } from 'ngx-typed-js';
+import { InViewportDirective } from './../directives/in-viewport.directive';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { NgxTypedJsModule } from 'ngx-typed-js';
     SuccessComponent,
     LegalNoticeComponent,
     PageNotFoundComponent,
-    BackToTopBtnComponent
+    BackToTopBtnComponent,
+    InViewportDirective
   ],
   imports: [
     BrowserModule,

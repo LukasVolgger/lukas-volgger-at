@@ -100,8 +100,12 @@ code {
     }
 }
 
+.nav-link:focus {
+    color: var(--link-col);
+}
+
 .nav-link-active {
-    color: var(--black-col);
+    color: var(--black-col) !important;
     font-weight: 500;
     border-bottom: solid 2px var(--black-col);
     transition: all 125ms ease-in-out;

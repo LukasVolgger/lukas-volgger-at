@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
+import { NavigationService } from 'src/services/navigation.service';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +9,7 @@ import { Router, NavigationEnd } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private router: Router) {
+  constructor(private router: Router, public nav: NavigationService) {
     router.events.forEach((event) => {
       if (event instanceof NavigationEnd) {
         let url = this.router.url;
@@ -52,7 +53,6 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {
-
   }
 
 }
