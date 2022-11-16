@@ -29,10 +29,12 @@
                         ],
                         "styles": [
                             "node_modules/bootstrap/dist/css/bootstrap.min.css",
+                            "node_modules/aos/dist/aos.css",
                             "src/styles.scss"
                         ],
                         "scripts": [
-                            "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+                            "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+                            "node_modules/aos/dist/aos.js"
                         ]
                     },
                     "configurations": {
@@ -105,6 +107,6 @@
         }
     },
     "cli": {
-      "analytics": false
+        "analytics": false
     }
 }
