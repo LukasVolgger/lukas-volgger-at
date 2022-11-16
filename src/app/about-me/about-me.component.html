@@ -1,64 +1,66 @@
-<div class="content border-spacing">
-    <div class="about-me-container">
-        <div class="mobile-only">
-            <h2 id="about-me" appInViewport class="page-heading">About me</h2>
-        </div>
-        <div class="profile-picture-container">
-            <img src="./../../assets/img/lukas_volgger.png" alt="Lukas Volgger" class="profile-img">
-        </div>
-        <p class="mobile-only mobile-border-spacing">" I am a frontend web developer from Austria, passionate gamer and PC hobbyist. "</p>
-        <div class="about-me mobile-border-spacing">
-            <div class="about-me-description hide-mobile">
+<div class="content">
+    <div id="about-me-section" class="section border-spacing-side">
+        <div class="about-me-container">
+            <div class="mobile-only">
                 <h2 class="page-heading">About me</h2>
-                <p>" I am a frontend web developer from Austria, passionate gamer and PC hobbyist. "</p>
             </div>
-            <div class="hyphen"></div>
-            <div class="skills-container">
-                <figure>
-                    <img class="skill-img" src="./../../assets/img/icons/javascript.svg" alt="JavaScript Logo">
-                    <figcaption>JavaScript</figcaption>
-                </figure>
-                <figure>
-                    <img class="skill-img" src="./../../assets/img/icons/typescript.svg" alt="TypeScript Logo">
-                    <figcaption>TypeScript</figcaption>
-                </figure>
-                <figure>
-                    <img class="skill-img" src="./../../assets/img/icons/angular.svg" alt="Angular Logo">
-                    <figcaption>Angular</figcaption>
-                </figure>
-                <figure>
-                    <img class="skill-img" src="./../../assets/img/icons/html5.svg" alt="HTML5 Logo">
-                    <figcaption>HTML5</figcaption>
-                </figure>
-                <figure>
-                    <img class="skill-img" src="./../../assets/img/icons/css3.svg" alt="CSS3 Logo">
-                    <figcaption>CSS3</figcaption>
-                </figure>
-                <figure>
-                    <img class="skill-img" src="./../../assets/img/icons/firebase.svg" alt="Firebase Logo">
-                    <figcaption>Firebase</figcaption>
-                </figure>
-                <figure>
-                    <img class="skill-img" src="./../../assets/img/icons/git.svg" alt="Git Logo">
-                    <figcaption>Git</figcaption>
-                </figure>
-                <figure>
-                    <img class="skill-img" src="./../../assets/img/icons/api.svg" alt="API Logo">
-                    <figcaption>REST-API</figcaption>
-                </figure>
-                <figure>
-                    <img class="skill-img" src="./../../assets/img/icons/scrum.svg" alt="SCRUM Logo">
-                    <figcaption>SCRUM</figcaption>
-                </figure>
-                <figure>
-                    <img class="skill-img" src="./../../assets/img/icons/material_design.svg" alt="Material Design Logo">
-                    <figcaption>Material Design</figcaption>
-                </figure>
+            <div class="profile-picture-container">
+                <img src="./../../assets/img/lukas_volgger.png" alt="Lukas Volgger" class="profile-img">
+            </div>
+            <p class="mobile-only mobile-border-spacing">" I am a frontend developer from Austria, passionate gamer and PC hobbyist.<br> In my spare time I like to improve my skills and learn more programming languages. "</p>
+            <div class="about-me mobile-border-spacing">
+                <div class="about-me-description hide-mobile">
+                    <h2 id="home" appInViewport class="page-heading">About me</h2>
+                    <p>" I am a frontend developer from Austria, passionate gamer and PC hobbyist.<br> In my spare time I like to improve my skills and learn more programming languages. "</p>
+                </div>
+                <div class="hyphen"></div>
+                <div class="skills-container">
+                    <figure>
+                        <img class="skill-img" src="./../../assets/img/icons/javascript.svg" alt="JavaScript Logo">
+                        <figcaption>JavaScript</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="skill-img" src="./../../assets/img/icons/typescript.svg" alt="TypeScript Logo">
+                        <figcaption>TypeScript</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="skill-img" src="./../../assets/img/icons/angular.svg" alt="Angular Logo">
+                        <figcaption>Angular</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="skill-img" src="./../../assets/img/icons/html5.svg" alt="HTML5 Logo">
+                        <figcaption>HTML5</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="skill-img" src="./../../assets/img/icons/css3.svg" alt="CSS3 Logo">
+                        <figcaption>CSS3</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="skill-img" src="./../../assets/img/icons/firebase.svg" alt="Firebase Logo">
+                        <figcaption>Firebase</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="skill-img" src="./../../assets/img/icons/git.svg" alt="Git Logo">
+                        <figcaption>Git</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="skill-img" src="./../../assets/img/icons/api.svg" alt="API Logo">
+                        <figcaption>REST-API</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="skill-img" src="./../../assets/img/icons/scrum.svg" alt="SCRUM Logo">
+                        <figcaption>SCRUM</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="skill-img" src="./../../assets/img/icons/material_design.svg" alt="Material Design Logo">
+                        <figcaption>Material Design</figcaption>
+                    </figure>
+                </div>
             </div>
         </div>
     </div>
     <div class="closing-text">
-        <img class="quotation-marks" src="./../../assets/img/quotation_marks.svg " alt="Quotation Marks ">
+        <img id="about-me" appInViewport class="quotation-marks" src="./../../assets/img/quotation_marks.svg " alt="Quotation Marks ">
         <p>
             I am a {{ myAgeInYears }}-year-old German-speaking frontend developer with experience in developing web applications with JavaScript & Angular.<br><br>In my spare time, I dedicated myself to an open source project in the field of SQL out of
             self-interest and discovered my passion for programming. After trying a few programming languages, I noticed that I really enjoyed web development with JavaScript.<br><br> So I decided to become a frontend developer and take a project-oriented

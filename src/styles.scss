@@ -65,6 +65,10 @@ code {
     padding: 128px 96px 0 96px;
 }
 
+.border-spacing-side {
+    padding: 0 96px 0 96px;
+}
+
 .page-heading {
     position: relative;
     width: max-content;
@@ -117,6 +121,9 @@ code {
     .border-spacing {
         padding: 128px 16px 0 16px;
     }
+    .border-spacing-side {
+        padding: 0 16px 0 16px;
+    }
     p {
         font-size: 14px;
     }
@@ -128,6 +135,9 @@ code {
 @media (min-width: 360px) {
     .border-spacing {
         padding: 128px 16px 0 16px;
+    }
+    .border-spacing-side {
+        padding: 0 16px 0 16px;
     }
     p {
         font-size: 14px;
@@ -142,12 +152,18 @@ code {
     .border-spacing {
         padding: 128px 32px 0 32px;
     }
+    .border-spacing-side {
+        padding: 0 32px 0 32px;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     .border-spacing {
         padding: 128px 64px 0 64px;
+    }
+    .border-spacing-side {
+        padding: 0 64px 0 64px;
     }
 }
 
@@ -162,16 +178,25 @@ code {
     .border-spacing {
         padding: 128px 96px 0 96px;
     }
+    .border-spacing-side {
+        padding: 0 96px 0 96px;
+    }
 }
 
 @media (min-width: 1600px) {
     .border-spacing {
         padding: 128px 256px 0 256px;
     }
+    .border-spacing-side {
+        padding: 0 256px 0 256px;
+    }
 }
 
 @media (min-width: 2000px) {
     .border-spacing {
         padding: 128px 384px 0 384px;
+    }
+    .border-spacing-side {
+        padding: 0 384px 0 384px;
     }
 }

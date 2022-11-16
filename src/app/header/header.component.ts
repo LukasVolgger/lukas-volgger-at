@@ -23,7 +23,7 @@ export class HeaderComponent implements OnInit {
             document.getElementById('nav-link-contact')?.classList.remove('nav-link-active');
             break;
 
-          case '/about-me':
+          case '/#about-me-section':
             document.getElementById('nav-link-about-me')?.classList.add('nav-link-active');
 
             document.getElementById('nav-link-home')?.classList.remove('nav-link-active');

@@ -15,7 +15,6 @@ const routerOptions: ExtraOptions = {
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'about-me', component: AboutMeComponent },
   { path: 'success', component: SuccessComponent },
   { path: 'legal-notice', component: LegalNoticeComponent },
   { path: '**', component: PageNotFoundComponent }, // 404 Error

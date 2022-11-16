@@ -3,6 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .mobile-only {
@@ -22,7 +30,7 @@
 
 .about-me-container {
     display: flex;
-    margin-bottom: 32px;
+    justify-content: center;
 }
 
 .about-me-description {
@@ -134,9 +142,6 @@ figure {
 // ######################################################################### Media queries
 // Extra small devices (max 360px)
 @media (max-width: 360px) {
-    .content {
-        padding: 128px 0 0 0;
-    }
     .mobile-border-spacing {
         padding-right: 16px;
         padding-left: 16px;
@@ -175,9 +180,6 @@ figure {
 }
 
 @media (min-width: 360px) {
-    .content {
-        padding: 128px 0 0 0;
-    }
     .mobile-border-spacing {
         padding-right: 16px;
         padding-left: 16px;
@@ -242,12 +244,12 @@ figure {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    .content {
-        padding: 128px 96px 0 96px;
-    }
     .mobile-border-spacing {
         padding-right: 16px;
         padding-left: 16px;
+    }
+    .section {
+        background-color: var(--section-col);
     }
     .hide-mobile {
         display: flex;
@@ -258,6 +260,7 @@ figure {
     .about-me-container {
         width: 100%;
         flex-direction: row;
+        padding: 32px 0;
     }
     .profile-img {
         width: 400px;
@@ -269,54 +272,24 @@ figure {
         background-color: var(--section-col);
     }
     .closing-text {
-        padding: 32px;
+        padding: 32px 96px;
     }
 }
 
 @media (min-width: 1200px) {
     .closing-text {
-        padding: 32px;
-    }
-}
-
-@media (min-width: 1400px) {
-    .closing-text {
-        padding: 32px 64px 32px 64px;
+        padding: 32px 256px;
     }
 }
 
 @media (min-width: 1600px) {
-    .content {
-        padding: 128px 256px 0 256px;
-    }
     .closing-text {
-        padding: 32px 96px 32px 96px;
-    }
-}
-
-@media (min-width: 1800px) {
-    .closing-text {
-        padding: 32px 128px 32px 128px;
+        padding: 32px 384px;
     }
 }
 
 @media (min-width: 2000px) {
-    .content {
-        padding: 128px 384px 0 384px;
-    }
     .closing-text {
-        padding: 32px 160px 32px 160px;
-    }
-}
-
-@media (min-width: 2200px) {
-    .closing-text {
-        padding: 32px 192px 32px 192px;
-    }
-}
-
-@media (min-width: 2400px) {
-    .closing-text {
-        padding: 32px 256px 32px 256px;
+        padding: 32px 640px;
     }
 }
