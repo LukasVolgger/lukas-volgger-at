@@ -1,23 +1,23 @@
 <div class="content">
     <div class="contact-header">
-        <h2 id="contact" appInViewport>Contact me</h2>
+        <h2 id="contact" appInViewport data-aos="zoom-in" data-aos-delay="200">Contact me</h2>
         <p>Get in touch via the form below, or by emailing <a href="mailto: contact@lukas-volgger.at">contact@lukas-volgger.at</a></p>
     </div>
     <form action="https://scripts.lukas-volgger.at/send_mail.php" method="post" class="contact-form">
-        <div class="mb-3">
+        <div class="mb-3" data-aos="fade-right" data-aos-delay="200">
             <label for="name" class="form-label">Name</label>
             <input type="text" name="name" class="form-control" id="user-input-email" aria-describedby="name" minlength="3" required>
         </div>
-        <div class="mb-3">
+        <div class="mb-3" data-aos="fade-left" data-aos-delay="200">
             <label for="email" class="form-label">Email address</label>
             <input type="email" name="email" class="form-control" id="user-input-email" aria-describedby="email" required>
             <div id="email-help" class="form-text">Your email will never be passed on to third parties. Read <a routerLink="/legal-notice" fragment="data-protection">privacy policy</a> for more details.</div>
         </div>
-        <div class="form-group">
+        <div class="form-group" data-aos="fade-right" data-aos-delay="200">
             <label for="message" class="form-label">Message</label>
             <textarea name="message" class="form-control" id="user-input-message" rows="8" minlength="10" required></textarea>
         </div>
-        <div class="contact-submit">
+        <div class="contact-submit" data-aos="slide-up" data-aos-delay="200">
             <button type="submit" class="btn btn-primary">Send </button>
         </div>
     </form>

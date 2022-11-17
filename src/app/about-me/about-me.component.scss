@@ -103,16 +103,11 @@ figure {
     }
 }
 
-.quotation-marks,
-.profile-picture {
+.quotation-marks {
     object-fit: cover;
     width: 80px;
     height: 80px;
     border-radius: 50%;
-}
-
-.quotation-marks {
-    transform: rotate(180deg);
 }
 
 .profile-name {
